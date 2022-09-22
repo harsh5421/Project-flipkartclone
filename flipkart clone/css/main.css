@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+.container{
+    min-height: calc(100vh - 8vh - 5vh);
+}
+.slider{
+    margin: 1.5vh auto;
+    width: 83vw;
+    overflow: hidden;
+}
+.card{
+    font-family: 'Lato', sans-serif;
+    max-width: 90vw;
+    margin: auto;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card h3{
+    font-family: 'ubuntu', sans-serif;
+}
+.my-11{
+    margin: 6px 0;
+    color: rgb(73, 112, 14);
+}
+.my-1{
+    margin: 6px 0;
+}
+.my-2{
+    margin: 24px 0;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 13px;
+}
+.text-center{
+    text-align: center;
+}
